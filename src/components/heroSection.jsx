@@ -15,11 +15,13 @@ const HeroSection = () => {
         </div>
         <div className="text-darkBlue pt-2 text-lg md:pt-4 md:text-xl lg:text-2xl lg:pt-8">
           Our integrated approach combines ancient yogic practices with modern
-          therapeutic techniques to nurture your mind, body, and spirit. Whether
-          you seek physical strength, emotional balance, or mental clarity, our
-          experienced instructors and compassionate therapists are here to
-          support you every step of the way. Embark on a journey towards
-          wholeness and well-being with us today.
+          therapeutic techniques to nurture your mind, body, and spirit.
+          <span className="hidden md:block">
+            Whether you seek physical strength, emotional balance, or mental
+            clarity, our experienced instructors and compassionate therapists
+            are here to support you every step of the way.
+          </span>
+          Embark on a journey towards wholeness and well-being with us today.
         </div>
       </div>
       <div className="flex items-center justify-center text-center w-full pt-8 md:pt-0 md:pl-6 md:w-[35vw]">

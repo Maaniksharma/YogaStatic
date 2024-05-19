@@ -1,7 +1,7 @@
 const Footer = () => (
   <div className="pt-8 md:pt-10 lg:pt-12 pb-4 md:pb-6 bg-darkBlue text-blueWhite">
-    <div className=" w-full md:px-20 pt-6 md:pt-10  flex flex-col md:flex-row gap-8 md:gap-96  md:justify-center  items-start">
-      <div className="flex flex-col gap-2">
+    <div className=" w-full md:px-20 pt-6 md:pt-10  flex flex-col items-center md:flex-row gap-8 md:gap-96 md:justify-center  md:items-start">
+      <div className="flex flex-col  gap-2">
         <h3 className="text-xl md:text-2xl font-semibold">Links</h3>
         <a href="#about">About</a>
         <a href="#programs">Program</a>
