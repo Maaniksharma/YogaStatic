@@ -16,11 +16,12 @@ const HeroSection = () => {
         <div className="text-darkBlue pt-2 text-lg md:pt-4 md:text-xl lg:text-2xl lg:pt-8">
           Our integrated approach combines ancient yogic practices with modern
           therapeutic techniques to nurture your mind, body, and spirit.
-          <span className="hidden md:block">
+          <span className="hidden md:inline">
+            {' '}
             Whether you seek physical strength, emotional balance, or mental
             clarity, our experienced instructors and compassionate therapists
             are here to support you every step of the way.
-          </span>
+          </span>{' '}
           Embark on a journey towards wholeness and well-being with us today.
         </div>
       </div>
